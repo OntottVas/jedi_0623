@@ -8,7 +8,7 @@ public class AnakinSkywalker extends Jedi implements Sith {
     @Override
     public void engeddElAHaragod() {
         Random random = new Random();
-        setEro(getEro() + random.nextDouble(0, 11));
+        setEro(getEro() + random.nextDouble(0, 10));
     }
 
     @Override
